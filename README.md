@@ -1,13 +1,6 @@
 # Overview
 
-I created this software to increase my understanding of the Java language and how it is structured and organized and I wanted to aquaint myself with more programming langueages as well. This software randomly places a centromere in a chromosome and calculates the length of the short (p) arm and the long (q) arm. It also displays a simple depiction of the chromosome and the arm length ratio and chromosome type. My purpose for writing this software was to familiarize myself with the basics of the Java language and syntax and to utilize what I have learned about genetics in a piece of software.
-
-I created this software to increase my understanding JavaScript and to familiarize myself with the ArcGIS API and its capabilites. The software the I created 
-
-
-{Provide a description the map software that you wrote. Describe how to use your software.  Describe the source of the data that you used.}
-
-{Describe your purpose for writing this software.}
+I created this software to increase my understanding JavaScript and to familiarize myself with the ArcGIS API and its capabilites. The software that I created uses a volcano json file from an [OCHA dataset](https://data.humdata.org/dataset/volcano-population-exposure-index-gvm/resource/7234d067-2d74-449a-9c61-22ae6d98d928) and generates a point to represent every volcano in the world. This data is formatted as a GeoJSON. When a volcano pin or marker is clicked on, a pop-up displays the name of the volcano, the country in which the volcano is located, the risk level, and the volcanic explosivity index number. My purpose for writing this software was to better visualize the positioning and details of volcanoes around the world. By editing the marker color in the code, a user can switch between viewing the volcanoes in different colors based on either volcanic explosivity index, risk level, or whether the volcano is active or not. The ArcGIS API generates the map and places the markers to whatever specificates were given in the JavaScrfipt and HTML files.
 
 Here is a demo of my software: [Software Demo Video](http://youtube.link.goes.here)
 
