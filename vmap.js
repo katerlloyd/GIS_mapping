@@ -1,4 +1,3 @@
-
 require([
     "esri/Map",
     "esri/views/MapView",
@@ -76,9 +75,6 @@ require([
                     else if (vei >= 1) {
                         vei_color = [245, 225, 0];
                     }
-                    // else if (vei == 1) {
-                    //     vei_color = [166, 236, 0];
-                    // }
                     else {
                         vei_color = [166, 236, 0];
                     }
@@ -101,7 +97,7 @@ require([
 
                     pointGraphic.popupTemplate = {
                         "title" : "Volcano",
-                        "content" : "<b>Name</b>: {V_Name}<br><b>Country</b>: {Country}<br><b>Volcanic Explosivity Index</b>: {VEI_Holoce}<br>"
+                        "content" : "<b>Name</b>: {V_Name}<br><b>Country</b>: {Country}<br><b>Risk Level</b>: {risk}<br><b>Volcanic Explosivity Index</b>: {VEI_Holoce}<br>"
                     }
             
                     graphicsLayer.add(pointGraphic);
