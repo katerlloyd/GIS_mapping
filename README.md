@@ -1,30 +1,31 @@
 # Overview
 
-{Talk about what you are trying to accomplish as a software engineer to further your learning.}
+I created this software to increase my understanding of the Java language and how it is structured and organized and I wanted to aquaint myself with more programming langueages as well. This software randomly places a centromere in a chromosome and calculates the length of the short (p) arm and the long (q) arm. It also displays a simple depiction of the chromosome and the arm length ratio and chromosome type. My purpose for writing this software was to familiarize myself with the basics of the Java language and syntax and to utilize what I have learned about genetics in a piece of software.
+
+I created this software to increase my understanding JavaScript and to familiarize myself with the ArcGIS API and its capabilites. The software the I created 
+
 
 {Provide a description the map software that you wrote. Describe how to use your software.  Describe the source of the data that you used.}
 
 {Describe your purpose for writing this software.}
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running and a walkthrough of the code.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+Here is a demo of my software: [Software Demo Video](http://youtube.link.goes.here)
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+* Visual Studio Code
+* JavaScript
+* HTML
+* Git / GitHub
+* ArcGIS 4.15
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [ArcGIS Documentation](https://developers.arcgis.com/documentation/)
+* [GeoJSON Summary Format](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Add the option for a user to change the views without manually changing the code.
+* Allow the user to filter out which volcanoes they want to see by attribute.
+* Add a map layer of the fault lines of the world.
