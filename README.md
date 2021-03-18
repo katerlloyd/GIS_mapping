@@ -4,7 +4,7 @@ I created this software to increase my understanding JavaScript and to familiari
 
 My purpose for writing this software was to better visualize the positioning and details of volcanoes around the world. By editing the marker color in the code, a user can switch between viewing the volcanoes in different colors based on either volcanic explosivity index, risk level, or whether the volcano is active or not. The ArcGIS API generates the map and places the markers to whatever specificates were given in the JavaScrfipt and HTML files.
 
-Here is a demo of my software: [Software Demo Video](http://youtube.link.goes.here)
+Here is a demo of my software: [Software Demo Video](https://youtu.be/cKzjPzqRZXA)
 
 # Development Environment
 
